@@ -166,7 +166,7 @@
             "always_enabled": true
           },
           "style": "diamond",
-          "template": "<parentBackground>\ue0b0</> \ue23a ",
+          "template": "<#ff479c>\ue0b0</> \ue23a ",
           "trailing_diamond": "\ue0b4",
           "type": "status"
         }
