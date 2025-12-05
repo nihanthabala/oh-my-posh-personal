@@ -154,21 +154,19 @@
           },
           "style": "powerline",
           "template": " \ueba2 {{ .FormattedMs }} ",
+          "trailing_diamond": "\ue0b4",
           "type": "executiontime"
         },
         {
-          "background": "#00897b",
-          "background_templates": [
+          "foreground": "#00897b",
+          "foreground_templates": [
             "{{ if gt .Code 0 }}#e91e63{{ end }}"
           ],
-          "foreground": "#ffffff",
-          "leading_diamond": "\ue0b0",
           "properties": {
             "always_enabled": true
           },
-          "style": "diamond",
-          "template": " \ue23a ",
-          "trailing_diamond": "\ue0b4",
+          "style": "plain",
+          "template": " \ue23a",
           "type": "status"
         }
       ],
